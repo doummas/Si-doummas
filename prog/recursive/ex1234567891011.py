@@ -1,6 +1,6 @@
 from numpy import *
 
-
+#1
 def pgcd(a,b):
         if b==0:
             return a
@@ -12,7 +12,7 @@ def pgcd(a,b):
 
 
 
-
+#2
 def chaine(ch):
     if len(ch)<1:
         return ""
@@ -23,7 +23,7 @@ def chaine(ch):
 
 
 
-
+#3
 def chercher(ch,c):
     if ch[0] == c:
         return True
@@ -34,7 +34,7 @@ def chercher(ch,c):
     
 
 
-
+#4
 def chercher_ent(ch,c):
     if ch == 0:
         return False
@@ -49,7 +49,7 @@ def puis(ch):
         s*=10
     return s
 
-
+#5
 def palin(ch):
     if len(ch)<=1:
         return True
@@ -62,7 +62,7 @@ print(palin("yahy"))
 print(palin("radar"))
          
 
-
+#6
 def puiss_rec(b,a,n):
     if n==1:
         return a
